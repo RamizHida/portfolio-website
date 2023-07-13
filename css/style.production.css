@@ -64,10 +64,13 @@ a {
   color: #7b68ee;
 }
 
+footer a {
+  text-decoration: none;
+}
+
 a:visited {
   color: #191970;
-  -webkit-text-decoration: dashed;
-  text-decoration: dashed;
+  text-decoration: none;
 }
 
 a:hover {
@@ -131,12 +134,45 @@ th {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  margin-top: 27%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.about__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.work__footer {
+  padding: 20px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
 }
 
 .profile {
@@ -267,5 +303,11 @@ main h1 {
 
   h1 {
     font-size: 22px;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .work__footer {
+    position: relative;
   }
 }
