@@ -255,6 +255,12 @@ main h1 {
   }
 }
 
+@media all and (max-width: 1210px) {
+  .work__footer {
+    position: relative;
+  }
+}
+
 @media all and (max-width: 850px) {
   .work__footer {
     position: relative;
