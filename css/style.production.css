@@ -213,7 +213,7 @@ th {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
 
@@ -237,6 +237,30 @@ main h1 {
 .airplane__container {
   margin-top: 40px;
   text-align: center;
+}
+
+.project-links {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-links a {
+  padding: 5px;
+}
+
+.grid__item img {
+  width: 600px;
+  height: 600px;
+}
+
+.grid__item p {
+  margin: 1rem;
+}
+
+.grid__item h2 {
+  color: #005a92;
 }
 
 @-webkit-keyframes airplane-move {
