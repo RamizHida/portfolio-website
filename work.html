@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./img/Wikipedia-favicon.png" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/normalize.css" />
@@ -37,19 +43,11 @@
           </li>
           <li role="presentation">
             <a
-              href="./contact.html"
-              role="menuitem"
-              class="navigation-list__item"
-              >Contact</a
-            >
-          </li>
-          <li role="presentation">
-            <a
               href="./work.html"
               role="menuitem"
               class="navigation-list__item navigation-list__item--active"
-              >Work</a
-            >
+              >Projects
+            </a>
           </li>
         </ul>
       </nav>
@@ -60,12 +58,48 @@
       <div class="grid">
         <!-- Grid Items here -->
         <div class="grid__item">
+          <h2>myFlix App</h2>
+          <p>
+            This project involved building the client-side portion for an app
+            called myFlix. My role for this project was to build the user
+            interface for myFlix. This entailed implementing different features,
+            such as creating a login and signup page with user authentication
+            and interacting with myFlix’s API to implement CRUD functionality
+            based on a user’s movie choices. While completing this project, I
+            learned about data storage and validation, the benefits of using a
+            framework as opposed to vanilla Javascript for building and
+            maintaining web applications, communicating with an API using a
+            framework, the importance of modularizing code, authorization and
+            authentication, how to build a SPA, and a better understanding of
+            the request-response cycle.
+          </p>
+          <img src="./img/myflix.png" alt="image of myflix app" />
+          <div class="project-links">
+            <a
+              href="https://github.com/RamizHida/myFlix-client/"
+              target="_blank"
+              >See Project on GitHub</a
+            >
+            <a href="https://myflix-rh.netlify.app/login" target="_blank"
+              >Live Project</a
+            >
+            <a href="https://ramizhida.github.io/CaseStudy/" target="_blank"
+              >Case Study</a
+            >
+          </div>
+          <h3>Technologies used:</h3>
+          <p>ReactJS, React Bootstrap, Parcel.</p>
+        </div>
+        <div class="grid__item">
           <h2>Meet App</h2>
           <p>
             The objective of the Meet app was to build a serverless, progressive
             web application (PWA) with React using a test-driven development
             (TDD) approach. The application uses the Google Calendar API to
-            fetch upcoming events in various cities.
+            fetch upcoming events in various cities. Meet contains several
+            features, from filtering events by city to using the application
+            while offline. Please refer to the README file on github for more
+            details of each feature for the Meet app.
           </p>
           <img src="./img/Meet.png" alt="image of meet app user interface" />
           <div class="project-links">
@@ -79,53 +113,57 @@
           <h3>Technologies used:</h3>
           <p>
             React, React Testing Libaray, Jest, Puppeteer, AWS Lambda, git,
-            Recharts.
+            Recharts, Google Calender API.
           </p>
         </div>
+
         <div class="grid__item">
-          <h2>***** App</h2>
+          <h2>Pokedex App</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
-            neque architecto perspiciatis sit et voluptates quo, voluptate culpa
-            tempora error.
+            The objective of the Meet app was to build a serverless, progressive
+            web application (PWA) with React using a test-driven development
+            (TDD) approach. The application uses the Google Calendar API to
+            fetch upcoming events in various cities.
           </p>
-          <a href="">See Project on GitHub</a>
+          <img src="./img/pokedex.png" alt="image of pokedex app" />
+          <div class="project-links">
+            <a href="https://github.com/RamizHida/Pokedex-App/" target="_blank"
+              >See Project on GitHub</a
+            >
+            <a href="https://ramizhida.github.io/Pokedex-App/" target="_blank"
+              >Live Project</a
+            >
+          </div>
+          <h3>Technologies used:</h3>
+          <p>HTML, CSS, Javascript, Pokémon API.</p>
         </div>
         <div class="grid__item">
-          <h2>***** App</h2>
+          <h2>MyFlix API</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
-            neque architecto perspiciatis sit et voluptates quo, voluptate culpa
-            tempora error.
+            This project involved creating a REST API that interacts with a
+            nosql database that stores data about movies and users. My role for
+            this project was building the backend of an app called myFlix. I
+            built a REST API and a database using Node, Express, and MongoDB.
+            During this project, I learned how to create a web server, important
+            concepts of RESTful architecture, why authorization and
+            authentication is very important and how to implement them, backend
+            data validation and taking security measures to keep user data safe
+            and private.
           </p>
-          <a href="">See Project on GitHub</a>
-        </div>
-        <div class="grid__item">
-          <h2>***** App</h2>
+          <img src="./img/api.png" />
+          <div class="project-links">
+            <a href="https://github.com/RamizHida/myFlix" target="_blank"
+              >See Project on GitHub</a
+            >
+          </div>
+          <h3>Technologies used:</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
-            neque architecto perspiciatis sit et voluptates quo, voluptate culpa
-            tempora error.
+            Express, Node, MongoDB, bycrpt library, passport library, JSON Web
+            Token.
           </p>
-          <a href="">See Project on GitHub</a>
         </div>
       </div>
     </main>
-
-    <!-- <footer class="work__footer">
-      <p>Find me on</p>
-      <div class="social-media">
-        <a href="https://ramizhida.github.io/Portfolio/" target="_blank">
-          <img src="./img/github.svg" alt="Github" />
-        </a>
-        <a href="I dont have a twitter">
-          <img src="./img/twitter.svg" alt="Twitter" />
-        </a>
-        <a href="https://www.linkedin.com/in/ramiz-hida/" target="_blank">
-          <img src="./img/linkedin.svg" alt="LinkedIn" />
-        </a>
-      </div>
-    </footer> -->
     <script src="./js/tota11y.min.js"></script>
   </body>
 </html>

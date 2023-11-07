@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./img/Wikipedia-favicon.png" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/normalize.css" />
@@ -34,16 +40,8 @@
             >
           </li>
           <li role="presentation">
-            <a
-              href="./contact.html"
-              role="menuitem"
-              class="navigation-list__item"
-              >Contact</a
-            >
-          </li>
-          <li role="presentation">
             <a href="./work.html" role="menuitem" class="navigation-list__item"
-              >Work</a
+              >Projects</a
             >
           </li>
         </ul>
@@ -51,47 +49,56 @@
     </header>
 
     <main>
-      <h1>About Ramiz Hida</h1>
+      <h1>A Little About Ramiz</h1>
       <p>
-        My name is Ramiz Hida. I am web developer who enjoys all aspects of
-        programming, evening the not so enjoyable aspects. Outside of
-        programming, you can find me reading a thought provoking book, writing,
-        and spending time with friends and family.
+        I'm a Full Stack Web Developer that creates responsive, user-oriented
+        web applications. Experience ranging from the production of data
+        visualizations for better understanding of customer needs in the energy
+        industry, to the creation of both frontend and backend applications
+        using tools such as React JS, Node, and noSQL databases, among others.
+        Outside of programming, I enjoy spending time with friends and family,
+        reading a thought provoking book and watching one piece, which is
+        undeniably the best anime ever!
       </p>
-      <table>
-        <thead>
-          <tr>
-            <th>Technologies</th>
-            <th>Knowledge Level</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML</td>
-            <td>Advance</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>Advance</td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td>Intermediate</td>
-          </tr>
-          <tr>
-            <td>React</td>
-            <td>Beginner</td>
-          </tr>
-          <tr>
-            <td>Git</td>
-            <td>Intermediate</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="separator"></div>
+      <h1>Skills</h1>
+      <div class="skills">
+        <div>
+          <h2>Frontend</h2>
+          <ul>
+            <li>React</li>
+            <li>ES5 & ES6 JavaScript</li>
+            <li>HTML5</li>
+            <li>CSS/SASS</li>
+            <li>Test Driven Development (TDD)</li>
+            <li>Responsive Web Design</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Backend</h2>
+          <ul>
+            <li>Node.JS</li>
+            <li>Express</li>
+            <li>RESTful APIs</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Tools</h2>
+          <ul>
+            <li>Git</li>
+            <li>Github</li>
+            <li>Postman</li>
+            <li>Command Line Interface (CLI)</li>
+            <li>Microsoft Excel</li>
+          </ul>
+        </div>
+      </div>
     </main>
-
+    <div class="separator"></div>
     <div class="cv__btn">
-      <a href="./Resume .pdf" class="btn" download>Download my CV</a>
+      <a href="./Ramiz-Hida-CV.pdf" class="btn" download>Download my CV</a>
     </div>
     <div class="airplane__container">
       <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -1494,21 +1501,6 @@
         </metadata>
       </svg>
     </div>
-
-    <footer class="about__footer">
-      <p>Find me on</p>
-      <div class="social-media">
-        <a href="https://ramizhida.github.io/Portfolio/" target="_blank"
-          ><img src="./img/github.svg" alt="Github"
-        /></a>
-        <a href="">
-          <img src="./img/twitter.svg" alt="Twitter" />
-        </a>
-        <a href="https://www.linkedin.com/in/ramiz-hida/" target="_blank">
-          <img src="./img/linkedin.svg" alt="LinkedIn"
-        /></a>
-      </div>
-    </footer>
     <script src="./js/tota11y.min.js"></script>
   </body>
 </html>
