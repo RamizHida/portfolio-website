@@ -76,6 +76,7 @@ a {
 
 .check-me-out-container {
   display: flex;
+  border-radius: 5px;
   flex-direction: column;
   background: radial-gradient(
     circle at 48.7% 44.3%,
@@ -85,10 +86,12 @@ a {
     rgb(31, 63, 116) 100.2%
   );
   padding: 2rem;
-  margin-top: 200px;
+  /* margin-top: 200px; */
+  margin: 200px auto;
   justify-items: center;
   gap: 2rem;
   align-items: center;
+  width: 90%;
 }
 
 .check-me-out-container a:hover {
@@ -353,6 +356,16 @@ main h1 {
   .airplane {
     width: 400px;
     height: 400px;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .check-me-out-container {
+    margin-top: 3rem;
   }
 }
 
