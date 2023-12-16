@@ -62,24 +62,36 @@ a {
   gap: 1rem;
 }
 
+#chat {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  margin: 0 auto;
+}
+
+#email {
+  color: #fff;
+}
+
+#home--page {
+  background-image: url('../img/bluebg.jpg');
+}
+
+#work--page {
+  background-image: url('../img/graybg.jpg');
+}
+
 .check-me-out-container {
   display: flex;
   border-radius: 5px;
   flex-direction: column;
-  background: radial-gradient(
-    circle at 48.7% 44.3%,
-    rgb(30, 144, 231) 0%,
-    rgb(56, 113, 209) 22.9%,
-    rgb(38, 76, 140) 76.7%,
-    rgb(31, 63, 116) 100.2%
-  );
+  background-color: #bc6f03;
+  background-image: linear-gradient(315deg, #bc6f03 0%, #874000 74%);
   padding: 2rem;
-  /* margin-top: 200px; */
   margin: 200px auto;
   justify-items: center;
-  gap: 2rem;
   align-items: center;
-  width: 90%;
+  width: 80%;
 }
 
 .check-me-out-container a:hover {
@@ -226,6 +238,13 @@ main h1 {
 
 .separator {
   height: 10rem;
+  width: 0.1rem;
+  background-color: #ff6d38;
+  margin: 1rem auto;
+}
+
+.separator--short {
+  height: 5rem;
   width: 0.1rem;
   background-color: #ff6d38;
   margin: 1rem auto;
