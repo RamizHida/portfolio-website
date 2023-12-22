@@ -100,6 +100,19 @@ a {
   transition: ease-in-out 0.2s;
 }
 
+.socials:hover {
+  scale: 1.1;
+  rotate: 360deg;
+  transition: ease-in-out 0.2s;
+}
+
+.socials--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 .btn {
   border: none;
   font-family: inherit;
