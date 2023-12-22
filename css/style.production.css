@@ -100,6 +100,10 @@ a {
   transition: ease-in-out 0.2s;
 }
 
+#logo--link {
+  width: min-content;
+}
+
 .socials:hover {
   scale: 1.1;
   rotate: 360deg;
