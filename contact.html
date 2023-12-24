@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.production.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./css/styles.css" /> -->
+    <title>Ramiz Hida</title>
+  </head>
+  <body>
+    <nav>
+      <div class="heading--container">
+        <a href="./index.html" id="logo--link">
+          <img
+            src="./img/logo.png"
+            class="logo__img page-header__item"
+            alt="A logo photo"
+          />
+        </a>
+        <ul class="heading collapsed">
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li id="about"><a href="./about.html">About Me</a></li>
+          <li>
+            <a href="./work.html">Projects</a>
+          </li>
+          <li>
+            <a href="./contact.html" class="navigation-list__item--active"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="65"
+          height="65"
+          viewBox="0 0 24 24"
+          class="menu-icon"
+        >
+          <path fill="none" d="M0 0h24v24H0V0z" />
+          <path
+            d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z"
+          />
+        </svg>
+      </div>
+    </nav>
+    <div class="contact--container">
+      <div id="contact--top">
+        <h2>Contact Me</h2>
+        <div class="contact--sec">
+          <img src="/img/planet-earth.png" alt="Icon of Earth" />
+          <h3>Bayern, Germany</h3>
+        </div>
+        <div class="contact--sec">
+          <img src="/img/email.png" alt="Email Icon" />
+          <h3>ramzhida00@gmail.com</h3>
+        </div>
+        <!-- <div class="contact--sec">
+          <img src="/resources/phone.png" alt="Phone Icon" />
+          <h3>404-910-6280</h3>
+        </div> -->
+      </div>
+      <div id="contact--form">
+        <form
+          action="https://formsubmit.co/ramizhida00@gmail.com"
+          method="POST"
+        >
+          <div>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="Name" required />
+          </div>
+          <div>
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" required name="Email" />
+          </div>
+          <div>
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" />
+          </div>
+          <div>
+            <label for="textarea">Message</label>
+            <textarea
+              type="text"
+              id="textarea"
+              required
+              name="Message"
+            ></textarea>
+          </div>
+          <div id="thanks">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/tota11y.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
