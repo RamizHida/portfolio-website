@@ -22,6 +22,7 @@ let menu = document.querySelector('.heading');
 let headerContainer = document.querySelector('.heading--container');
 let expand = true;
 dropDown.addEventListener('click', () => {
+  console.log('p');
   if (expand) {
     expand = false;
     menu.classList.remove('collapsed');
