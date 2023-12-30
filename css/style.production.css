@@ -106,13 +106,6 @@ a {
   transition: ease-in-out 0.2s;
 }
 
-.socials--container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
 .btn {
   border: none;
   font-family: inherit;
@@ -291,6 +284,8 @@ main h1 {
 .grid__item img {
   width: 600px;
   height: 300px;
+  display: flex;
+  margin: 0 auto;
 }
 
 .grid__item p {
@@ -298,6 +293,7 @@ main h1 {
 }
 
 .grid__item h2 {
+  font-size: 3rem;
   color: #ff6d38;
   text-align: center;
   margin-top: 1rem;
@@ -488,7 +484,6 @@ nav h1 {
   .grid__item img {
     width: 300px;
     height: 300px;
-    margin-left: 18px;
   }
 
   h1 {
