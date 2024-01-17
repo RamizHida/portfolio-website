@@ -470,6 +470,21 @@ p {
   .desc-and-image {
     flex-direction: column;
   }
+
+  #gas--desc {
+    flex-direction: column-reverse;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .icon-sec {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    width: max-content;
+    justify-items: center;
+  }
 }
 
 @media all and (max-width: 500px) {
@@ -540,6 +555,22 @@ p {
 }
 
 @media all and (max-width: 700px) {
+  .icon-sec {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .fun-images {
+    width: 300px;
+    height: 400px;
+  }
+
+  #last--icon {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
   .heading--container {
     display: grid;
     grid-template-columns: 1fr 1fr;
